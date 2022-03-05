@@ -13,6 +13,10 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
+          name: Angular CLI
+          command: |
+            npm i -g @angular/cli
+      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
