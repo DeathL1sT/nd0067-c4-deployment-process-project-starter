@@ -12,7 +12,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'https://elasticbeanstalk-us-east-1-312921138927.s3.amazonaws.com/.elasticbeanstalk',
+  baseUrl: 'http://elasticbeanstalk-us-east-1-312921138927.s3-website-us-east-1.amazonaws.com',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
